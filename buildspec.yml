@@ -9,3 +9,4 @@ phases:
       - git rev-parse --short HEAD
       - echo $CODEBUILD_SOURCE_VERSION
       - echo $CODEBUILD_SOURCE_REPO_URL
+      - git branch --contains
