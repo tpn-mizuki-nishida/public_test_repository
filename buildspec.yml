@@ -3,3 +3,9 @@ phases:
   build:
     commands:
       - ls -la
+      - git branch --show-current
+      - git status
+      - git rev-parse HEAD
+      - git rev-parse --short HEAD
+      - echo $CODEBUILD_SOURCE_VERSION
+      - echo $CODEBUILD_SOURCE_REPO_URL
