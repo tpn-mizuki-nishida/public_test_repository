@@ -11,4 +11,3 @@ phases:
       - echo $CODEBUILD_SOURCE_REPO_URL
       - git branch --contains
       - echo TEST
-      - cdk synth
